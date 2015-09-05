@@ -1,30 +1,25 @@
 {
-  "name": "gulp-verify",
+  "name": "gulp-test-env",
   "version": "1.0.0",
-  "description": "verify gulp plugins are not blacklisted",
-  "main": "index.js",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-css": "^0.1.0",
+    "gulp-verify": "^1.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "babel-node": "babel-node --stage 0 --ignore='foo|bar|baz'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/santi6291/git-verify.git"
+    "url": "git+https://github.com/santi6291/gulp-verify.git"
   },
-  "keywords": [
-    "gulp",
-    "verify",
-    "plugins",
-    "gulpplugin"
-  ],
-  "author": "Santiago J Sosa",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/santi6291/git-verify/issues"
+    "url": "https://github.com/santi6291/gulp-verify/issues"
   },
-  "homepage": "https://github.com/santi6291/git-verify",
-  "dependencies": {
-    "gulp-util": "^3.0.6",
-    "request": "^2.61.0",
-    "through2": "^2.0.0"
-  }
+  "homepage": "https://github.com/santi6291/gulp-verify#readme"
 }
